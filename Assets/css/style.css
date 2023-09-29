@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'Visitor TT2 BRK';
+    font-family: 'VT323';
     font-style: normal;
     font-weight: normal;
-    src: local('Visitor TT2 BRK'), url('../fonts/visitor-cufonfonts-webfont/visitor2.woff') format('woff');
+    src: local('VT323'), url("../fonts/VT323-Regular.ttf") format('ttf');
 }
 
 /* Modal */
@@ -88,14 +88,14 @@ html{ background-image: url(../Images/2wvcp7.jpg); background-size: cover; backg
 
 #wrap { position: relative; width: 1000px;  margin: 0 auto; display: block; }
 #contentMenuWrap { width: 100%; margin: 0 auto; }
-#HeaderBox { background-color: black; margin-top: 50px; width: 100%; height: 150px; border: 2px solid white; max-width: 996px; }
-#contentBox { background-color: black; border: 2px solid #24e725; width: 740px; height: 390px; float: right; font-size: 20px; padding: 20px 30px; line-height: 20px; overflow-x:auto;  }
+#HeaderBox { background-color: black; margin-top: 50px; width: 100%; height: 150px; border: 2px solid #24e725; max-width: 996px; }
+#contentBox { background-color: black; border: 2px solid #24e725; width: 740px; height: auto; float: right; font-size: 20px; padding: 20px 30px; line-height: 20px; overflow-x:auto;  }
 
 .profileBox { display: -webkit-flex; display: flex; -webkit-flex-direction: row; flex-direction: row; }
 
 /* MENU ITEMS */
 #menuDown { width: 100%; height: auto; bottom: 10px;  }
-.button { background-color: black ; font-size: 20px; margin: 10px 10px 10px 0px; cursor: pointer; width: 182px; line-height: 60px; text-align: center; border: 2px solid white; }
+.button { background-color: black ; font-size: 20px; margin: 10px 10px 10px 0px; cursor: pointer; width: 182px; line-height: 60px; text-align: center; border: 2px solid #24e725; }
 .button:hover { background-color: red; }
 
 .profile { display: -webkit-flex; display: flex; float: left !important; margin: 47px; border: 3px solid transparent; }
