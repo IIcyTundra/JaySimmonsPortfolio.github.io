@@ -1,5 +1,8 @@
-body {
+@font-face {
     font-family: 'VT323', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    src: url('node_modules/@fontsource/vt323/files/vt323-latin-400-normal.woff');
 }
 
 /* Modal */
@@ -81,19 +84,20 @@ body {
     to {opacity: 1}
 }
 
-html{ background-image: url(../Images/2wvcp7.jpg); background-size: cover; background-repeat: no-repeat;  background-color: #000000; color: #FFFFFF; height: 100%; width: 100%; height: 100%; margin: 0; padding: 0; background-size: cover; font-family: Visitor TT2 BRK ; }
+html{ background-image: url(../Gifs/1pX9.gif); background-size: cover; background-repeat: no-repeat;  background-color: #000000; color: #FFFFFF; height: 100%; width: 100%; margin: 0; padding: 0;
+    font-family: 'VT323', sans-serif}
 
 #wrap { position: relative; width: 1000px;  margin: 0 auto; display: block; }
 #contentMenuWrap { width: 100%; margin: 0 auto; }
-#HeaderBox { background-color: black; margin-top: 50px; width: 100%; height: 150px; border: 2px solid #24e725; max-width: 996px; }
-#contentBox { background-color: black; border: 2px solid #24e725; width: 740px; height: auto; float: right; font-size: 20px; padding: 20px 30px; line-height: 20px; overflow-x:auto;  }
+#HeaderBox { background-color: black; margin-top: 50px; width: 100%; height: 150px; border: 2px solid #1d28e8; max-width: 996px; box-shadow: 0 0 5px rgb(164, 255, 239);}
+#contentBox { background-color: black; border: 2px solid #1d28e8; width: 740px; height: auto; float: right; font-size: 20px; padding: 20px 30px; line-height: 20px; overflow-x:auto; box-shadow: 0 0 5px rgb(164, 255, 239); }
 
-.profileBox { display: -webkit-flex; display: flex; -webkit-flex-direction: row; flex-direction: row; }
+.profileBox { display: -webkit-flex; display: flex; -webkit-flex-direction: row; flex-direction: row; box-shadow: 0 0 5px rgb(164, 255, 239);}
 
 /* MENU ITEMS */
 #menuDown { width: 100%; height: auto; bottom: 10px;  }
-.button { background-color: black ; font-size: 20px; margin: 10px 10px 10px 0px; cursor: pointer; width: 182px; line-height: 60px; text-align: center; border: 2px solid #24e725; }
-.button:hover { background-color: #a6a3a3; }
+.button { background-color: black ; font-size: 20px; margin: 10px 10px 10px 0px; cursor: pointer; width: 182px; line-height: 60px; text-align: center; border: 2px solid #1d28e8; box-shadow: 0 0 5px rgb(164, 255, 239);}
+.button:hover { background-color: #32ccaf; }
 
 .profile { display: -webkit-flex; display: flex; float: left !important; margin: 47px; border: 3px solid transparent; }
 
